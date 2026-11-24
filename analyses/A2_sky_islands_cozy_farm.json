@@ -1,0 +1,469 @@
+{
+  "analysis_id": "an_b81e94",
+  "status": "pinned",
+  "pinned_at": "2026-10-20",
+  "data_cutoff": "2026-09-30",
+  "disclaimer": "Синтетические данные для тестового задания. Названия игр и числа сгенерированы и не описывают реальный рынок.",
+  "idea": {
+    "working_title": "Ветряная долина",
+    "text": "Уютная ферма на летающих островах. Игрок восстанавливает заброшенные острова, выращивает урожай и строит ветряные насосы и простые конвейеры, чтобы автоматизировать полив и сбор. Сезоны, жители со своими историями, без поражений и таймеров. Одиночная игра, пиксельная графика.",
+    "text_for_search": "Cozy farming sim on floating sky islands. Restore abandoned islands, grow crops, build windmills and simple conveyors to automate watering and harvest. Seasons, villagers with stories, relaxing, no fail states, pixel graphics.",
+    "tags": [
+      "farming",
+      "relaxing",
+      "cute",
+      "crafting",
+      "automation",
+      "pixel-graphics",
+      "singleplayer",
+      "2d"
+    ]
+  },
+  "author": {
+    "team": "1 человек: соло-разработчик (Unity, 1 выпущенная игра в Steam, около 300 отзывов), пиксель-арт на аутсорсе",
+    "engine": "Unity",
+    "stage": "вертикальный срез: 1 остров, 1 сезон, 12 культур",
+    "timeline_months": 22,
+    "budget_rub": 4100000,
+    "budget_note": "зарплата разработчика на 22 месяца, пиксель-арт и музыка на аутсорсе, локализация на 6 языков",
+    "platforms": "Windows, macOS, позже Nintendo Switch",
+    "target_price_usd": 19.99
+  },
+  "completeness": {
+    "similar_search": "done",
+    "niche_stats": "done",
+    "revenue": "done",
+    "forecast": "done",
+    "llm_review": "done",
+    "versions": {
+      "search": "desc-embed v2 + popularity",
+      "llm_prompt": "idea-review v5",
+      "forecast_model": "releases-xgb v1.4"
+    }
+  },
+  "similar_games": {
+    "method": "0,45 × сходство тегов (Жаккар) + 0,4 × сходство описаний + 0,15 × популярность (число отзывов); top-10 по каталогу",
+    "items": [
+      {
+        "game_id": 2166910,
+        "title": "Cinderrunner",
+        "release_date": "2022-07-05",
+        "price_usd": 9.99,
+        "tags": [
+          "farming",
+          "cute",
+          "singleplayer",
+          "co-op",
+          "pixel-graphics",
+          "2d",
+          "simulation",
+          "relaxing"
+        ],
+        "reviews_total": 16277,
+        "reviews_positive_ratio": 0.874,
+        "revenue_estimate_usd": 3414800,
+        "similarity": 0.523,
+        "short_description": "In Cinderrunner, a punchy relaxing farming game in a land waiting to be discovered, you restore an overgrown farm, grow seasonal crops and befriend the local villagers. Adorable creatures and cheerful visuals. There is no rush, just a calm and relaxing pace."
+      },
+      {
+        "game_id": 2322130,
+        "title": "Quiet Drift",
+        "release_date": "2023-07-13",
+        "price_usd": 2.99,
+        "tags": [
+          "farming",
+          "relaxing",
+          "cute",
+          "crafting",
+          "pixel-graphics",
+          "simulation",
+          "2d"
+        ],
+        "reviews_total": 7366,
+        "reviews_positive_ratio": 0.856,
+        "revenue_estimate_usd": 462500,
+        "similarity": 0.495,
+        "short_description": "A tense cozy farming sim in a land waiting to be discovered. Tend crops, raise animals and help a sleepy town come back to life. Detailed pixel art brings the world to life. Adorable creatures and cheerful visuals."
+      },
+      {
+        "game_id": 1808970,
+        "title": "Thalspire: Last Colony",
+        "release_date": "2020-03-02",
+        "price_usd": 4.99,
+        "tags": [
+          "farming",
+          "relaxing",
+          "cute",
+          "pixel-graphics",
+          "fantasy",
+          "2d"
+        ],
+        "reviews_total": 8506,
+        "reviews_positive_ratio": 0.985,
+        "revenue_estimate_usd": 891300,
+        "similarity": 0.489,
+        "short_description": "Thalspire: Last Colony is an experimental cozy life sim across a realm of forgotten gods where you restore an overgrown farm, grow seasonal crops and befriend the local villagers. There is no rush, just a calm and relaxing pace."
+      },
+      {
+        "game_id": 321640,
+        "title": "Feral Echoes",
+        "release_date": "2022-12-15",
+        "price_usd": 4.99,
+        "tags": [
+          "farming",
+          "relaxing",
+          "cute",
+          "crafting",
+          "fantasy",
+          "pixel-graphics",
+          "2d",
+          "tactics"
+        ],
+        "reviews_total": 218,
+        "reviews_positive_ratio": 0.862,
+        "revenue_estimate_usd": 22800,
+        "similarity": 0.478,
+        "short_description": "Feral Echoes is a relaxing farming game across a realm of forgotten gods: restore an overgrown farm, grow seasonal crops and befriend the local villagers. Follow Vesvane, a stray cat, on a journey home. Crisp pixel graphics and smooth animation. Positioning and flanking are key to every encounter."
+      },
+      {
+        "game_id": 862860,
+        "title": "Shattered Furnace",
+        "release_date": "2011-06-25",
+        "price_usd": 6.99,
+        "tags": [
+          "farming",
+          "relaxing",
+          "cute",
+          "crafting"
+        ],
+        "reviews_total": 2086,
+        "reviews_positive_ratio": 0.915,
+        "revenue_estimate_usd": 306200,
+        "similarity": 0.476,
+        "short_description": "An ambitious cozy farming sim. Restore an overgrown farm, grow seasonal crops and befriend the local villagers. Charming, cute characters fill every corner. There is no rush, just a calm and relaxing pace."
+      },
+      {
+        "game_id": 414360,
+        "title": "Tideforge",
+        "release_date": "2026-05-15",
+        "price_usd": 6.99,
+        "tags": [
+          "farming",
+          "relaxing",
+          "cute",
+          "crafting",
+          "2d"
+        ],
+        "reviews_total": 85,
+        "reviews_positive_ratio": 0.624,
+        "revenue_estimate_usd": 12500,
+        "similarity": 0.468,
+        "short_description": "A tense cozy farming sim. Restore an overgrown farm, grow seasonal crops and befriend the local villagers. Play as Eldridge, an exiled cartographer with nothing left to lose. A deep crafting system turns scavenged materials into tools and gear. A soothing soundtrack sets a relaxing mood. Adorable creatures and cheerful visuals."
+      },
+      {
+        "game_id": 2881290,
+        "title": "Hearth of Dunfell",
+        "release_date": "2016-08-03",
+        "price_usd": 0.0,
+        "tags": [
+          "farming",
+          "relaxing",
+          "cute",
+          "crafting",
+          "2d",
+          "co-op",
+          "pixel-graphics",
+          "multiplayer"
+        ],
+        "reviews_total": 17,
+        "reviews_positive_ratio": 0.882,
+        "revenue_estimate_usd": null,
+        "similarity": 0.452,
+        "short_description": "In Hearth of Dunfell, a cozy relaxing farming game in a vibrant handcrafted world, you restore an overgrown farm, grow seasonal crops and befriend the local villagers. Detailed pixel art brings the world to life. Charming, cute characters fill every corner."
+      },
+      {
+        "game_id": 592690,
+        "title": "Emberwalker: The Long Night",
+        "release_date": "2023-02-08",
+        "price_usd": 4.99,
+        "tags": [
+          "farming",
+          "relaxing",
+          "cute",
+          "crafting"
+        ],
+        "reviews_total": 1329,
+        "reviews_positive_ratio": 0.916,
+        "revenue_estimate_usd": 139300,
+        "similarity": 0.452,
+        "short_description": "In Emberwalker: The Long Night, a cozy cozy farming sim where every decision counts, you restore an overgrown farm, grow seasonal crops and befriend the local villagers. A deep crafting system turns scavenged materials into tools and gear. A soothing soundtrack sets a relaxing mood. Adorable creatures and cheerful visuals."
+      },
+      {
+        "game_id": 2459350,
+        "title": "Starforge II",
+        "release_date": "2018-04-01",
+        "price_usd": 6.99,
+        "tags": [
+          "farming",
+          "relaxing",
+          "cute",
+          "crafting",
+          "2d",
+          "exploration",
+          "co-op",
+          "multiplayer"
+        ],
+        "reviews_total": 8021,
+        "reviews_positive_ratio": 0.94,
+        "revenue_estimate_usd": 1177400,
+        "similarity": 0.441,
+        "short_description": "Starforge II is a tense relaxing farming game in a land waiting to be discovered where you restore an overgrown farm, grow seasonal crops and befriend the local villagers. Follow Sorhaven, a rogue pilot, on a journey home. Exploration is rewarded with secrets and hidden areas."
+      },
+      {
+        "game_id": 2535570,
+        "title": "Geardrift II",
+        "release_date": "2017-05-31",
+        "price_usd": 0.0,
+        "tags": [
+          "farming",
+          "relaxing",
+          "cute",
+          "crafting",
+          "story-rich",
+          "exploration",
+          "pixel-graphics",
+          "simulation"
+        ],
+        "reviews_total": 326,
+        "reviews_positive_ratio": 0.623,
+        "revenue_estimate_usd": null,
+        "similarity": 0.438,
+        "short_description": "In Geardrift II, a cozy relaxing farming game in a vibrant handcrafted world, you restore an overgrown farm, grow seasonal crops and befriend the local villagers. Detailed pixel art brings the world to life."
+      }
+    ]
+  },
+  "niche": {
+    "filter": {
+      "tags_all": [
+        "farming"
+      ]
+    },
+    "label": "тег `farming`",
+    "games_total": 89,
+    "releases_by_year": [
+      {
+        "year": 2016,
+        "count": 4,
+        "partial": false
+      },
+      {
+        "year": 2017,
+        "count": 4,
+        "partial": false
+      },
+      {
+        "year": 2018,
+        "count": 5,
+        "partial": false
+      },
+      {
+        "year": 2019,
+        "count": 4,
+        "partial": false
+      },
+      {
+        "year": 2020,
+        "count": 7,
+        "partial": false
+      },
+      {
+        "year": 2021,
+        "count": 5,
+        "partial": false
+      },
+      {
+        "year": 2022,
+        "count": 6,
+        "partial": false
+      },
+      {
+        "year": 2023,
+        "count": 11,
+        "partial": false
+      },
+      {
+        "year": 2024,
+        "count": 9,
+        "partial": false
+      },
+      {
+        "year": 2025,
+        "count": 11,
+        "partial": false
+      },
+      {
+        "year": 2026,
+        "count": 9,
+        "partial": true
+      }
+    ],
+    "releases_note": "2026 — неполный год: данные по 30.09.2026",
+    "releases_last_12m": 11,
+    "releases_prev_12m": 10,
+    "price": {
+      "median_paid_usd": 6.99,
+      "median_all_usd": 4.99,
+      "free_share": 0.135,
+      "buckets": {
+        "free": 12,
+        "0-5": 35,
+        "5-10": 33,
+        "10-20": 9,
+        "20-30": 0,
+        "30+": 0
+      }
+    },
+    "reviews": {
+      "median": 101,
+      "p90": 1883,
+      "no_reviews": 5,
+      "mean_positive_ratio": 0.781
+    },
+    "top_co_tags": [
+      {
+        "tag": "relaxing",
+        "games": 82
+      },
+      {
+        "tag": "crafting",
+        "games": 74
+      },
+      {
+        "tag": "cute",
+        "games": 72
+      },
+      {
+        "tag": "exploration",
+        "games": 28
+      },
+      {
+        "tag": "2d",
+        "games": 25
+      },
+      {
+        "tag": "singleplayer",
+        "games": 23
+      },
+      {
+        "tag": "co-op",
+        "games": 21
+      },
+      {
+        "tag": "pixel-graphics",
+        "games": 21
+      }
+    ]
+  },
+  "revenue": {
+    "method": "отзывы × 30 × цена × 0.7 (доля разработчика после комиссии магазина); скидки, региональные цены, возвраты и налоги не учитываются",
+    "data_date": "2026-09-30",
+    "games_with_estimate": 72,
+    "excluded_free": 12,
+    "excluded_no_reviews": 5,
+    "q1_usd": 3170,
+    "median_usd": 13300,
+    "q3_usd": 47300,
+    "p90_usd": 302500,
+    "mean_usd": 143100,
+    "share_below_1000": 0.125,
+    "top3_share_of_total": 0.544,
+    "distribution": [
+      {
+        "bucket": "< $1 000",
+        "games": 9
+      },
+      {
+        "bucket": "$1 000–10 000",
+        "games": 20
+      },
+      {
+        "bucket": "$10 000–100 000",
+        "games": 28
+      },
+      {
+        "bucket": "$100 000–1 000 000",
+        "games": 12
+      },
+      {
+        "bucket": "> $1 000 000",
+        "games": 3
+      }
+    ]
+  },
+  "forecast": {
+    "target": "число релизов в нише за следующие 12 месяцев",
+    "period": "2026-10 … 2027-09",
+    "model": "releases-xgb v1.4",
+    "point": 11,
+    "interval_80": [
+      7,
+      14
+    ],
+    "interval_method": "квантили 10% и 90% относительной ошибки на тестовой выборке (релизы 2025 года): -31% / +27%",
+    "wape_test_12m": 0.29,
+    "history_last_12m": 11
+  },
+  "llm_review": {
+    "prompt_version": "idea-review v5",
+    "criteria": [
+      {
+        "key": "novelty",
+        "name": "Новизна",
+        "score": 5,
+        "max": 10,
+        "comment": "Летающие острова — сеттинг, а не механика. Автоматизация в нише не встречается (у 89 игр нет тега `automation`), но в идее она пока второстепенна.",
+        "growth_point": "Сделать автоматизацию центральной: например, головоломка из ветра и насосов на каждом острове."
+      },
+      {
+        "key": "demand",
+        "name": "Спрос в нише",
+        "score": 7,
+        "max": 10,
+        "comment": "Медиана — 101 отзыв, средняя доля положительных 78%. Выручка сконцентрирована: три лидера дают 54% суммы, медиана — $13 300.",
+        "growth_point": "Разобрать похожие игры с выручкой выше $1 млн: что у них общего."
+      },
+      {
+        "key": "competition",
+        "name": "Конкуренция",
+        "score": 4,
+        "max": 10,
+        "comment": "Релизов стало больше: 11 в 2023 и 2025 годах против 4–7 в 2016–2022; прогноз на 12 месяцев — 11 (7–14).",
+        "growth_point": "Отстроиться за счёт автоматизации, а не за счёт сеттинга."
+      },
+      {
+        "key": "feasibility",
+        "name": "Реализуемость",
+        "score": 6,
+        "max": 10,
+        "comment": "Соло-разработчик с выпущенной игрой; объём контента фермы большой.",
+        "growth_point": "Сократить число культур и жителей к первой версии, расширять в обновлениях."
+      },
+      {
+        "key": "monetization",
+        "name": "Монетизация",
+        "score": 5,
+        "max": 10,
+        "comment": "Планируемая цена $19.99 почти втрое выше медианы платных игр ниши ($6.99); бесплатных игр в нише 14%.",
+        "growth_point": "Сравнить выручку игр ниши в ценовых корзинах $5–10 и $10–20: дороже $20 в нише нет ни одной игры."
+      },
+      {
+        "key": "audience",
+        "name": "Ясность аудитории",
+        "score": 6,
+        "max": 10,
+        "comment": "Аудитория уютных ферм широкая, но любители автоматизации — другая аудитория, и идея пока не говорит, кому она в первую очередь.",
+        "growth_point": "Выбрать основную аудиторию и проверить описание идеи на 5 игроках."
+      }
+    ]
+  }
+}
